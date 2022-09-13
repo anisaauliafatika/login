@@ -1,0 +1,12 @@
+<script>
+function tampilkan(){
+ 
+  var nama lengkap=document.getElementById("form1").select1.value;
+  var p_kontainer=document.getElementById("container");
+ 
+  if (nama lengkap=="bellamida")
+    {
+        p_kontainer.innerHTML="selamat bellamida, anda sudah berhasil melakukan pendaftaran online, untuk tahap selanjutnya akan di kabarkan lusa";
+    }
+}
+</script>
